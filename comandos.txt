@@ -1,0 +1,44 @@
+Nome: Guilherme Gomes de Medeiros
+Matrícula: 20251ZL00130020
+
+mkdir tarefa-branchs
+
+cd tarefa-branchs
+
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead.git
+
+cd curso-branchs-ifrn-ead
+
+git add texto.txt
+
+git commit -m "adiciona arquivo texto.txt com conteúdo qualquer"
+
+git checkout -b feature-1
+
+git add texto.txt
+
+git commit -m "atualiza novamente conteúdo do arquivo texto.txt"
+
+git checkout main
+
+git add texto.txt
+
+git commit -m "altera o conteúdo do arquivo texto.txt"
+
+git merge feature-1
+
+git add texto.txt
+
+git commit -m "Merge branch 'feature-1'"
+
+git checkout -b add-comandos
+
+git add comandos.txt
+
+git commit -m "adiciona arquivo comandos.txt com comandos utilizados na atividade"
+
+git remote add origin-atividade https://github.com/Guilherme-07062002/tarefa2-git-embarcatech.git
+
+git push origin-atividade main
+
+git push origin-atividade add-comandos
