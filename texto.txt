@@ -1,1 +1,1 @@
-Novo conteúdo modificado branch main
+Novo conteúdo modificado branch main após resolução de conflito de merge
